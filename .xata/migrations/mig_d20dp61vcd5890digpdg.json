@@ -1,0 +1,17 @@
+{
+  "done": true,
+  "migration": {
+    "name": "mig_d20dp61vcd5890digpdg",
+    "operations": [
+      {
+        "sql": {
+          "up": "CREATE SCHEMA \"bb_00000000000000000000000000_000000\";"
+        }
+      }
+    ]
+  },
+  "migrationType": "pgroll",
+  "name": "mig_d20dp61vcd5890digpdg",
+  "schema": "public",
+  "startedAt": "2025-07-23T12:59:05.084955Z"
+}

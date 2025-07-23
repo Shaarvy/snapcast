@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://shaarvy-chauhan-s-workspace-9psfs1.eu-central-1.xata.sh/db/shaarvy_snapcast",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
