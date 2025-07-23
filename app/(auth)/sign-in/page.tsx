@@ -7,7 +7,7 @@ import { authClient } from '@/lib/auth-client';
 const Page = () => {
 
   const handleSignIn = async () => {
-    return await authClient.signIn.social({provider: 'google'})
+    return await authClient.signIn.social({provider: 'google'});
   }
 
   return (
@@ -74,7 +74,7 @@ const Page = () => {
 
             <p>Create and share your very first <span>SnapCast Video</span> in no time!</p>
 
-            <button onClick={handleSignIn}>
+            <button onClick={ handleSignIn }>
               <Image 
                 src="/assets/icons/google.svg" 
                 alt="google" 

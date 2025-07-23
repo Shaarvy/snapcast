@@ -11,10 +11,10 @@ export const auth = betterAuth({
     }),
     socialProviders: {
         google: {
-            clientId: process.env.GOGGLE_CLIENT_ID!,
+            clientId: process.env.GOOGLE_CLIENT_ID!,
             clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
         }
     },
     plugins: [nextCookies()],
-    baseURL: process.env.NEXT_PUBLIC_BASE_URL!, 
+    baseURL: process.env.NEXT_PUBLIC_BASE_URL, 
 })
