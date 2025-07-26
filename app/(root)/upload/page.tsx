@@ -8,9 +8,9 @@ import {
 } from "@/lib/actions/video";
 import { useRouter } from "next/navigation";
 import FileInput from "@/components/FileInput";
-import FormField from "@/components/FormField";
 import { useFileInput } from "@/lib/hooks/useFileInput";
 import { MAX_THUMBNAIL_SIZE, MAX_VIDEO_SIZE } from "@/constants";
+import FormField from "@/components/FormField";
 
 const uploadFileToBunny = (
   file: File,
