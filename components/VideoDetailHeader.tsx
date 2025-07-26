@@ -31,6 +31,7 @@ const VideoDetailHeader = ({
   const isOwner = userId === ownerId;
 
   const handleDelete = async () => {
+    console.log("Delete handler called:", videoId, thumbnailUrl);
     try {
       setIsDeleting(true);
       await deleteVideo(videoId, thumbnailUrl);

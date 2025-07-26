@@ -276,7 +276,7 @@ export const deleteVideo = withErrorHandling(
 
     const thumbnailPath = thumbnailUrl.split("thumbnails/")[1];
     await apiFetch(
-      `${THUMBNAIL_STORAGE_BASE_URL}/thumbnails/${thumbnailPath}`,
+      `${THUMBNAIL_STORAGE_BASE_URL}/thumbnail/${thumbnailPath}`,
       { method: "DELETE", bunnyType: "storage", expectJson: false }
     );
 
