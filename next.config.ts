@@ -11,7 +11,7 @@ typescript: {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "*",
+        hostname: "shaarvy-snapcast.b-cdn.ne",
         port: "",
         pathname: "/**",
       },

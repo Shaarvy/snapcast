@@ -1,4 +1,4 @@
-import Header from '@/components/Header';
+import SharedHeader from '@/components/SharedHeader';
 import VideoCard from '@/components/VideoCard';
 import { dummyCards } from '@/constants';
 
@@ -7,7 +7,7 @@ const Page = async ({params} : ParamsWithSearch) => {
     const { id } = await params;
     return (
         <div className="wrapper page">
-            <Header subHeader="shaarvy@username.pro" title="Shaarvy" userImg="/assets/images/dummy.jpg" />
+            <SharedHeader subHeader="shaarvy@username.pro" title="Shaarvy" userImg="/assets/images/dummy.jpg" />
 
             <section className="video-grid">
                 {dummyCards.map((card) => (
