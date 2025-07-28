@@ -87,6 +87,6 @@ npm run dev
 ```
 ## Acknowledgements
 
-- JavaScript Mastery Krypt Tutorial
-- Ethers.js Documentation
-- Hardhat Documentation
+- JavaScript Mastery Tutorial
+- Next.js Documentation
+
