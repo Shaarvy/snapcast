@@ -6,15 +6,15 @@ SnapCast is a full-stack web application that allows users to record, upload, an
 
 ##  Features
 
-- 🔐 Google OAuth Authentication
-- 🖥️ In-browser screen recording
-- ☁️ Upload videos with public/private visibility
-- 🗂️ Personal dashboard to manage uploaded videos
-- ⚡ Fast, secure video streaming using Bunny.net CDN
-- 🛡️ Security protections using Arcjet
-- 🧼 Clean and responsive UI with Tailwind CSS
-- 📥 Delete videos anytime
-- 🌐 Deployed on Render
+-  Google OAuth Authentication
+-  In-browser screen recording
+-  Upload videos with public/private visibility
+-  Personal dashboard to manage uploaded videos
+-  Fast, secure video streaming using Bunny.net CDN
+-  Security protections using Arcjet
+-  Clean and responsive UI with Tailwind CSS
+-  Delete videos anytime
+-  Deployed on Render
 
 ---
 
