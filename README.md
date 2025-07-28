@@ -33,3 +33,60 @@ SnapCast is a full-stack web application that allows users to record, upload, an
 | Deployment       | **Render**                        | Cloud hosting for frontend & backend     | *(No install, deploy via dashboard)* |
 
 ---
+
+![Snapcast](public/assets/images/Auth-Page.png)
+
+---
+
+##  Setup & Installation
+
+### 1. Clone the Repo
+```bash
+git clone https://github.com/your-username/snapcast.git
+cd snapcast
+```
+### 2. Install Dependencies
+```bash
+npm install
+```
+### 3. Set Up Tailwind CSS
+```bash
+npx tailwindcss init -p
+```
+### 4. Configure Environment Variables
+
+```bash
+# Next.js
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+
+# [Xata] Configuration used by the CLI and the SDK
+# Make sure your framework/tooling loads this file on startup to have it available for the SDK
+XATA_API_KEY=
+DATABASE_URL_POSTGRES=
+
+# Google
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+
+# BetterAuth
+BETTER_AUTH_SECRET=
+BETTER_AUTH_URL=http://localhost:3000
+
+# Bunny
+BUNNY_STORAGE_ACCESS_KEY=
+BUNNY_LIBRARY_ID=
+BUNNY_STREAM_ACCESS_KEY=
+
+#ArcJet
+ARCJET_API_KEY=
+XATA_API_KEY=
+```
+### 5. Run Locally
+```bash
+npm run dev
+```
+## Acknowledgements
+
+- JavaScript Mastery Krypt Tutorial
+- Ethers.js Documentation
+- Hardhat Documentation
