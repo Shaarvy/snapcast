@@ -1,4 +1,4 @@
-#  SnapCast – A Loom-Inspired Secure Web App for Content Creators
+#  ![Snapcast](public/assets/icons/logo.svg) SnapCast – A Loom-Inspired Secure Web App for Content Creators
 
 SnapCast is a full-stack web application that allows users to record, upload, and manage screen-recorded tutorial videos. Inspired by Loom, it integrates modern technologies with an emphasis on **privacy**, **performance**, and **security**.
 
